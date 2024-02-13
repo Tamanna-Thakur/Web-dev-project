@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+/* nav styling */
+header{
+    background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow:5px 5px 5px rgba(0,0, 0, 0.5) ;
+}
+.container{
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 18px;
+}
+.nav-logo{
+    margin-right:60px;
+    width: 280px;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul li a {
+    transition: 0.2s ease-in;
+    
+}
+nav ul li a:hover{
+    border-bottom: solid 1px white;
+    transition: 0.2s ease-in-out;
+}
+.hero-section1{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-image: url(/image/music1.jpg);
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero-section1 h1{
+  
+    font-size:60px;
+}
+.hero-section1 h3{
+    font-size:24px;
+}
+/* section2 styling */
+.hero-section2{
+    background-color: #281154;
+    color: white;
+    height: 90vh;
+    padding-top: 28px;
+   
+
+}
+.music-icon{
+    display: flex;
+    gap: 10px;
+}
+.music-icon i{
+    font-size: 40px;
+}
+.music-icon h2{
+    margin-top: -11px;
+    font-size: 40px;
+}
+.btn{
+    background-color: rgb(173, 15, 15);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.section2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section2-img{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;
+    transition: 4s ease-in-out;
+}
+.section2-img:hover{
+    
+    transform: rotate(360deg);
+
+}
+
+.section2-img img{
+    height: 500px;
+    width: 400px;
+
+    
+
+}
+/* section3 styling */
+.section3-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    gap: 40px;
+    margin-top: 280px;
+   
+    
+    
+}
+.section3-content img{
+    width: 800px;
+    height: 400px;
+    
+}
+.btn2{
+    background-color: #281154;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+h1{
+    margin-right:50px;
+    
+}
+ .section3 h1:hover{
+    text-decoration: underline;
+}
+.section3{
+    /* background-color: #e4dbf7; */
+    padding-top: 20px;
+}
+/* section4 styling */
+.section4{
+    background-image: url(/image/consert2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+    gap: 10px;
+   
+    
+}
+.section4 img:hover{
+    box-shadow:5px 5px 5px 5px rgba(1,1, 1, 0.5);;
+}
+/* section5 */
+.gift-card{
+    width: 400px;
+    height: 200px;
+    
+   
+}
+.gift-card img{
+    width: 400px;
+    margin-left:20px;
+    height: 200px;
+    
+}
+.section5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 50px;
+    gap:90px;
+    /* background-color: #e0d7f1; */
+    height: 60vh;
+
+}
+.gift-card-content{
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.gift-card-content:hover{
+    box-shadow:5px 5px 5px 5px rgba(1,1, 1, 0.5);
+}
+.btn3{
+    background-color:#281154;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.footer-links li{
+    display: block;
+    
+}
+ footer .container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-upper{
+    background-color: #281154;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+h2{
+    border-bottom: solid 2px white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer-lower{
+    background-color: #270082;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
