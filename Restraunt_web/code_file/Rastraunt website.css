@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+/* navigation style */
+.nav-baar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 17px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 50;
+
+}
+.nav-logo{
+    width: 150px;
+    height:150px;
+}
+.nav-logo img{
+    width: 92px;
+    height:88px;
+    border-radius: 50%;
+    margin-top: 24px;
+
+}
+h4{
+    margin-right: 50px;
+    font-size: 45px;
+    color: #e9bf4a;
+
+}
+span{
+    font-size:45px ;
+}
+.nav-toggle{
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+/* hero-saction1 */
+.hero-saction1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 41px;
+    margin-left: 21px;
+}
+.saction-logo{
+    height: 400px;
+    width: 659px;
+}
+.section-logo img {
+    height: 400px;
+    width: 659px;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.discount{
+    background-color: rgb(98, 194, 79);
+    width: 200px;
+    padding: 9px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+
+h1{
+    font-size: 78px;
+    text-transform: capitalize;
+    
+
+}
+.btn{
+    background-color: rgb(236, 176, 44);
+    width: 169px;
+    padding: 9px;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+   
+
+}
+/* section2 styling */
+.section2{
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 95px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+
+}
+.flex{
+    display: flex;
+    gap:32px;
+    align-items: center;
+    padding: 17px;
+    transition: 0.2s ease-in-out;
+}
+.flex:hover{
+    box-shadow: 8px 8px 8px  rgba(1,1,1,0.09);
+    transition: 0.2s ease-in-out;
+}
+ 
+.discount2 img{
+    width: 76px;
+    height: 76px;
+}
+
+.Fresh-Healthy img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.deliver img{
+    width: 100px;
+    height: 80px;
+}
+
+/* style divider */
+
+.divider
+{
+    border: solid 1px #ccc;
+    margin: 20px 44px;
+    
+}
+
+/* menu style */
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+    font-size: 36px;
+}
+.our-menu{
+    background-color: rgb(65, 156, 47);
+    width:189px;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.gallery{
+    display: grid;
+    gap: 10px;
+    width: 900px;
+    height: 528px;
+    margin:  30px auto;
+    grid-template-columns:repeat(3 ,1fr);
+    grid-auto-rows:120px ;
+}
+.box{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    transition: all 0.8s ease-in-out;
+   
+}
+.box:hover{
+    box-shadow: 8px 8px 8px  rgba(1,1,1,0.09);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+    transform: scale(1.05);
+
+
+
+}
+/* utility class */
+.row-2{
+    grid-row:  span 2;
+}
+.col-2{
+    grid-column: span 2;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(223, 193, 155);
+    padding: 49px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+   
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+.list-2{
+    text-align: center;
+    margin-bottom: 23px;
+    
+}
+.list-1{
+    text-align: center;
+    
+}
+.list-1 h2{
+    text-align:left;
+}
+.list-3 { 
+    text-align: left;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+}
+.list-3 i{
+    display: block;
+    row-gap: 10px;
+}
+h2{
+    color: black;
+}
+
+
+
+
+
+
+ 
